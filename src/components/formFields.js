@@ -8,7 +8,7 @@ export class FormInput extends Component {
                 <label className='form-input__title'>{title}</label>
                 <input  
                     className={`${className} form-input__input`}
-                    tyep={type}
+                    type={type}
                     {...input}
                     placeholder={placeholder}    
                 />

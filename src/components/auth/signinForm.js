@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import { reduxForm, Field } from 'redux-form';
+import React, { Component } from "react";
+import { reduxForm, Field } from "redux-form";
 
-import { FormTitle } from '../formTitle';
-import { FormInput } from '../formFields';
+import { FormTitle } from "../formTitle";
+import { FormInput } from "../formFields";
 
 class SigninForm extends Component {
     render() {
@@ -18,9 +18,9 @@ class SigninForm extends Component {
                     component={FormInput}
                 />
                 <Field
-                    className='sign-in-form__password'
-                    placeholder='Enter Password'
-                    name='password'
+                    className="sign-in-form__password"
+                    placeholder="Enter Password"
+                    name="password"
                     type="password"
                     title="Password"
                     component={FormInput}
